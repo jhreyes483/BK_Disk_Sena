@@ -1,0 +1,28 @@
+
+package teorema.de.pitagoras;
+
+
+import java.util.Scanner;
+public class Triangulo {
+    
+ double a=0, raiz=0,num1=0, num2=0,solucion=0; 
+    Scanner leer = new Scanner (System.in);
+    
+    
+     //double num1=0, num2=0, Solucion=0;
+    public void hipotenusa(){ 
+    
+        System.out.println("Ingrese primer numero");
+     num1=leer.nextDouble();
+        
+        raiz = Math.sqrt(num1);
+        
+        System.out.println("La raiz cuadrada  "+num1+"es :"+raiz);
+         
+        
+        
+        
+        
+        
+        }
+}

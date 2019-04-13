@@ -1,0 +1,66 @@
+
+clase calculadora
+-------------------------------------------------------------------------
+
+package operacion11;
+
+import java.util.Scanner;
+
+
+
+
+
+public class Calculadora {
+    
+    
+    Scanner leer = new Scanner (System.in);
+    
+    
+    public void calcula(){
+        
+        
+        int a=0,b=0;
+        
+        
+        System.out.println("ingrese el Mumero 1: ");
+        
+        a=leer.nextInt();
+        
+        System.out.println("ingrese el numero 2: ");
+        
+        
+        b=leer.nextInt();
+        
+        
+        System.out.println("La suma de "+a+" + "+b+"=" + (a+b));
+        
+
+
+
+___________________________________________________________________________________
+
+
+
+
+
+Clase Operacion11
+-----------------------------------------------------------------------------------
+
+package operacion11;
+
+
+    public static void main(String[] args) {
+        
+        
+        Calculadora Opera = new Calculadora ();
+       
+        Opera.calcula();
+  
+        // TODO code application logic here
+    }
+    
+}
+
+
+
+
